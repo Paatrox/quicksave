@@ -45,9 +45,14 @@ function FormAddUser() {
 
   const handleBlur = (e: React.FocusEvent<HTMLInputElement>) => {
     const { name } = e.target;
-    const value = formValues[name as keyof UserType];
-    const error = validate[name as keyof UserType](value);
-    setFormErrors((prev) => ({ ...prev, [name]: error }));
+    const field = name as keyof UserType;
+    const value = formValues[field];
+    const currentError = formErrors[field];
+
+    if (value || currentError) {
+      const newError = validate[field](value);
+      setFormErrors((prev) => ({ ...prev, [field]: newError }));
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
