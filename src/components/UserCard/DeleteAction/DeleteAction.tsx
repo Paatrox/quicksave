@@ -1,7 +1,7 @@
-import { IconTrashStyled } from "./DeleteAction.styles";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { api } from "../../../api";
 import { UserResponseType } from "../../../types/types";
+import { IconTrashStyled } from "./DeleteAction.styles";
 
 function DeleteAction({ id, name }: { id: string; name: string }) {
   const queryClient = useQueryClient();

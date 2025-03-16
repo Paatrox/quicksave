@@ -1,10 +1,10 @@
-import { useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { Form, ButtonWithMargin, InputWithMargin } from "./FormAddUser.styles";
-import Input from "../../components/Input/Input";
+import { useState } from "react";
 import { api } from "../../api";
-import { validate } from "./validations";
+import Input from "../../components/Input/Input";
 import { UserType } from "../../types/types";
+import { ButtonWithMargin, Form, InputWithMargin } from "./FormAddUser.styles";
+import { validate } from "./validations";
 
 const initialValues = { email: "", name: "", number: "" } as UserType;
 

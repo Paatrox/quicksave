@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Input from "../../components/Input/Input";
 import Button from "../../components/Button/Button";
+import Input from "../../components/Input/Input";
 import { media } from "../../styles/media";
 
 export const Form = styled.form`

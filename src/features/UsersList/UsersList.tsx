@@ -1,9 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
+import { AnimatePresence, motion } from "motion/react";
 import { api } from "../../api";
-import { List, ListItem } from "./UsersList.styles";
-import UserCard from "../../components/UserCard/UserCard";
 import EmptyList from "../../components/EmptyList/EmptyList";
-import { motion, AnimatePresence } from "motion/react";
+import UserCard from "../../components/UserCard/UserCard";
+import { List, ListItem } from "./UsersList.styles";
 
 const motionParams = {
   initial: { opacity: 0, y: -13 },

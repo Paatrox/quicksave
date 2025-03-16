@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { UserType, UserResponseType } from "../types/types";
+import { UserResponseType, UserType } from "../types/types";
 
 const STORAGE_KEY = "QuickSave";
 

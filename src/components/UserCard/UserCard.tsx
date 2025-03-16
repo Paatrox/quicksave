@@ -1,16 +1,16 @@
 import { memo } from "react";
+import { UserResponseType } from "../../types/types";
+import { capitalizeFirstLetter, formatPhoneNumber } from "../../utils/utils";
+import DeleteAction from "./DeleteAction/DeleteAction";
 import {
-  LetterIcon,
-  Info,
+  Actions,
   Container,
+  Info,
+  LetterIcon,
+  Link,
   Name,
   Row,
-  Actions,
-  Link,
 } from "./UserCard.styles";
-import { UserResponseType } from "../../types/types";
-import DeleteAction from "./DeleteAction/DeleteAction";
-import { formatPhoneNumber, capitalizeFirstLetter } from "../../utils/utils";
 
 function UserCard({ name, email, number, id }: UserResponseType) {
   const nameCapitalized = capitalizeFirstLetter(name);

@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import {
-  Wrapper,
-  Label,
   Desc,
   ErrorMessage,
-  Input as StyledInput,
   IconXStyled,
+  Label,
+  Input as StyledInput,
+  Wrapper,
 } from "./Input.styles";
 
 type InputProps = {
