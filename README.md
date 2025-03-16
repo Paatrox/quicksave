@@ -2,6 +2,9 @@
 
 An example project in React.js
 
+## Live Demo  
+[🚀 Click here to view the app](https://paatrox.github.io/quicksave/)  
+
 ## Stack
 
 - React.js (Vite)
