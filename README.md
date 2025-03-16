@@ -1,3 +1,6 @@
+
+![image_alt](https://github.com/Paatrox/quicksave/blob/e64cc3842cdedf1f7620ecd15abbc71d82efa205/screenshot.jpg)
+
 # QuickSave
 
 An example project in React.js
@@ -23,13 +26,3 @@ An example project in React.js
 npm install
 npm run dev
 ```
-
-## Build & preview
-
-```bash
-npm install
-npm run build
-npm run preview
-```
-
-## Screenshot
