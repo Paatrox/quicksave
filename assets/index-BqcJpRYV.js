@@ -258,7 +258,7 @@ Error generating stack: `+a.message+`
 `;function EO(){return et.jsx(ux,{children:et.jsxs(SO,{children:[et.jsx(TO,{children:et.jsx(Dx,{})}),et.jsx(AO,{children:et.jsx(bO,{})})]})})}const xO=lx`
     :root {
         --primary-color: #0082fa;
-        --secondary-color:#6370f4;
+        --secondary-color: #6370f4;
 
         --text-color: #1c1c1c;
         --text-color-gray: #626262;
