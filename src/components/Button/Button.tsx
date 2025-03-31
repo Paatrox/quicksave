@@ -1,15 +1,15 @@
-import { Button as ButtonStyled } from "./Button.styles";
+import { Container } from "./Button.styles";
 
 type ButtonProps = {
   children: React.ReactNode;
   className?: string;
-} & React.ButtonHTMLAttributes<HTMLButtonElement>;
+};
 
 function Button({ children, className, ...props }: ButtonProps) {
   return (
-    <ButtonStyled className={className} {...props}>
+    <Container className={className} {...props}>
       {children}
-    </ButtonStyled>
+    </Container>
   );
 }
 

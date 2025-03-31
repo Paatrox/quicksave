@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { AnimatePresence, motion } from "motion/react";
-import { api } from "../../api";
+import { api } from "../../api/api";
 import EmptyList from "../../components/EmptyList/EmptyList";
 import UserCard from "../../components/UserCard/UserCard";
 import { List, ListItem } from "./UsersList.styles";

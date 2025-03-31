@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState } from "react";
-import { api } from "../../api";
+import { api } from "../../api/api";
 import Input from "../../components/Input/Input";
 import { UserType } from "../../types/types";
 import { ButtonWithMargin, Form, InputWithMargin } from "./FormAddUser.styles";

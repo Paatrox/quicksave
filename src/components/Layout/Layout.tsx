@@ -1,7 +1,7 @@
-import { Layout as LayoutContainer } from "./Layout.styles";
+import { Container } from "./Layout.styles";
 
 function Layout({ children }: { children: React.ReactNode }) {
-  return <LayoutContainer>{children}</LayoutContainer>;
+  return <Container>{children}</Container>;
 }
 
 export default Layout;

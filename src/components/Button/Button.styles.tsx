@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
+export const Container = styled.button`
   background-color: var(--primary-color);
   color: var(--text-color-white);
   border-radius: 10px;
