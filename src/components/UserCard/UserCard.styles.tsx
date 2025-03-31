@@ -7,6 +7,11 @@ export const Container = styled.div`
   margin-bottom: 20px;
 `;
 
+export const Info = styled.div`
+  margin-left: 25px;
+  flex-grow: 1;
+`;
+
 export const LetterIcon = styled.div`
   width: 40px;
   height: 40px;
@@ -21,17 +26,18 @@ export const LetterIcon = styled.div`
   font-weight: 600;
   align-self: center;
   background-color: var(--secondary-color);
-`;
-
-export const Info = styled.div`
-  margin-left: 25px;
-  flex-grow: 1;
+  ${Container}:hover & {
+    background-color: var(--tertiary-color);
 `;
 
 export const Actions = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
+  visibility: hidden;
+  ${Container}:hover & {
+    visibility: visible;
+  }
 `;
 
 export const Name = styled.h3`
